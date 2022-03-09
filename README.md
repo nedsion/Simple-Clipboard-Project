@@ -9,6 +9,9 @@ A tool written in Python that allows the user to copy a file line by line after 
 
 
 ## Usage
+Install Python 3.9.7 or newest version
+[Download Python](https://www.python.org/downloads/)
+
 Install requirements:
 ```shell
 pip install -r requirements.txt
