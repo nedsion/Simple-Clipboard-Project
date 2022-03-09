@@ -22,6 +22,10 @@ py core.py
 
 ![App Screenshot](https://i.imgur.com/NjzQ9fj.png)
 
+## Demo
+
+![Alt Text](https://i.imgur.com/tJux9uL.gif)
+
 
 ## Download
 
