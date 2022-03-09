@@ -1,5 +1,5 @@
-
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon
 
 
 class Ui_MainWindow(object):
@@ -46,6 +46,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Simple Clipboard by Edith Nguyen"))
         MainWindow.setFixedSize(420, 181)
+        MainWindow.setWindowIcon(QIcon('favicon.png'))
         self.label.setText(_translate("MainWindow", "Simple Clipboard"))
         self.pushButton.setText(_translate("MainWindow", "Open File"))
         self.pushButton_2.setText(_translate("MainWindow", "COPY!"))
